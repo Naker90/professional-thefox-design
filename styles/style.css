@@ -3,6 +3,27 @@ body {
     font-size: 14px;
 }
 
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.flex-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-wrapper-aling-v {
+    align-items: center;
+}
+
+.flex-item-1 {
+    flex: 1;
+    margin: 0 10px;
+    min-height: 250px; /*TODO: quitar*/
+    background-color: aquamarine; /*TODO: quitar*/
+}
+
 header {
     min-height: 89px;
     background-color: darkslategray; /*TODO: quitar*/
@@ -20,7 +41,6 @@ header {
 
 #features {
     min-height: 455px; /*TODO: quitar*/
-    background-color: white; /*TODO: quitar*/
 }
 
 #photo-book {
@@ -30,7 +50,6 @@ header {
 
 #fox-brands {
     min-height: 977px; /*TODO: quitar*/
-    background-color: darkslategray; /*TODO: quitar*/
 }
 
 #new-features {
@@ -40,7 +59,6 @@ header {
 
 #lastes-news {
     min-height: 1221px; /*TODO: quitar*/
-    background-color: crimson; /*TODO: quitar*/
 }
 
 #special-discount {
@@ -65,5 +83,5 @@ header {
 
 footer {
     min-height: 81px;
-    background-color: black;
+    background-color: black; /*TODO: quitar*/
 }
