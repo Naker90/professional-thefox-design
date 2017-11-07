@@ -1,0 +1,69 @@
+body {
+    font-family: Lato, Arial, "Times New Roman";
+    font-size: 14px;
+}
+
+header {
+    min-height: 89px;
+    background-color: darkslategray; /*TODO: quitar*/
+}
+
+#fashion {
+    min-height: 1080px;
+    background-color: darkgrey; /*TODO: quitar*/
+}
+
+#get-fox {
+    min-height: 148px; /*TODO: quitar*/
+    background-color: rosybrown; /*TODO: quitar*/
+}
+
+#features {
+    min-height: 455px; /*TODO: quitar*/
+    background-color: white; /*TODO: quitar*/
+}
+
+#photo-book {
+    min-height: 1280px;
+    background-color: cadetblue; /*TODO: quitar*/
+}
+
+#fox-brands {
+    min-height: 977px; /*TODO: quitar*/
+    background-color: darkslategray; /*TODO: quitar*/
+}
+
+#new-features {
+    min-height: 800px; /*TODO: quitar*/
+    background-color: firebrick; /*TODO: quitar*/
+}
+
+#lastes-news {
+    min-height: 1221px; /*TODO: quitar*/
+    background-color: crimson; /*TODO: quitar*/
+}
+
+#special-discount {
+    min-height: 391px; /*TODO: quitar*/
+    background-color: forestgreen; /*TODO: quitar: ;*/
+}
+
+#looks-book {
+    min-height: 1195px; /*TODO: quitar*/
+    background-color: darkviolet; /*TODO: quitar*/
+}
+
+#say-thefox {
+    min-height: 718px; /*TODO: quitar*/
+    background-color: chocolate; /*TODO: quitar*/
+}
+
+#pre-footer {
+    min-height: 464px;
+    background-color: darksalmon; /*TODO: quitar*/
+}
+
+footer {
+    min-height: 81px;
+    background-color: black;
+}
