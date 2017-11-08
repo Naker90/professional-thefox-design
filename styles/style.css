@@ -132,7 +132,7 @@ h2 {
 #fashion {
     background: url(../images/background.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center center;
     padding: 0;
     padding-top: 20px;
     height: 1080px;
