@@ -120,9 +120,13 @@ h2 {
 }
 
 #second-menu {
-    padding: 0;
-    min-height: 89px;
+    padding: 24px 0;
     background-color: #1a1c27;
+}
+
+#second-menu p {
+    margin: 0;
+    font-weight: bold;
 }
 
 #fashion {
