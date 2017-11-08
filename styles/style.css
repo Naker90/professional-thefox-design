@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'HelveticaCE';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/helvetica-ce.woff') format('woff');
+}
+
 body {
     font-family: Lato, Arial, "Times New Roman";
     font-size: 14px;
@@ -6,6 +13,13 @@ body {
 
 section {
     padding: 100px 0;
+}
+
+h1 {
+    font-family: HelveticaCE, Arial, "Times New Roman";
+    font-size: 35px;
+    color: #1a1c27;
+    font-weight: bold;
 }
 
 h2 {
@@ -20,6 +34,10 @@ h2 {
 .wrapper {
     width: 1170px;
     margin: 0 auto;
+}
+
+.span-azul {
+    color: #1abc9c;
 }
 
 .menu {
@@ -104,6 +122,11 @@ header {
 #fashion {
     background: url(../images/background.png);
     background-size: cover;
+}
+
+#fashion p {
+    font-size: 19px;
+    font-weight: bold;
 }
 
 #get-fox {
