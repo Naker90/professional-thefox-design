@@ -17,7 +17,7 @@ section {
 
 h1 {
     font-family: HelveticaCE, Arial, "Times New Roman";
-    font-size: 35px;
+    font-size: 29px;
     color: #1a1c27;
     font-weight: bold;
 }
@@ -65,8 +65,8 @@ h2 {
     text-decoration: none;
     display: inline-block;
     background-color: transparent;
-    border: 2px solid #000;
-    padding: 24px 43px;
+    border: 1px solid #000;
+    padding: 23px 43px;
 }
 
 .btn:visited {
@@ -122,6 +122,10 @@ header {
 #fashion {
     background: url(../images/background.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    padding-top: 20px;
+    height: 1080px;
 }
 
 #fashion p {
@@ -129,8 +133,13 @@ header {
     font-weight: bold;
 }
 
+#fashion-text-container {
+    text-align: center;
+    width: 572px;
+}
+
 #get-fox {
-    background-color: rosybrown; /*TODO: quitar*/
+    background-color: #fd727d; 
 }
 
 #photo-book {
