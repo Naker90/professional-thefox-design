@@ -36,8 +36,12 @@ h2 {
     margin: 0 auto;
 }
 
-.span-azul {
+.span-blue {
     color: #1abc9c;
+}
+
+.span-bold {
+    font-weight: bold;
 }
 
 .menu {
@@ -98,6 +102,7 @@ h2 {
 
 .flex-space-between {
     justify-content: space-between;
+    align-items: center;
 }
 
 .flex-item {
@@ -121,7 +126,7 @@ h2 {
 }
 
 #fashion {
-    background: url(../images/background.png);
+    background: url(../images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0;
@@ -142,6 +147,11 @@ h2 {
 #get-fox {
     padding: 45px 0;
     background-color: #fd727d; 
+}
+
+#get-fox p {
+    color: #fff;
+    font-size: 24px;
 }
 
 #photo-book {
