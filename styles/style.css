@@ -113,10 +113,6 @@ h2 {
     align-items: center;
 }
 
-.flex-item {
-    margin: 10px 10px;
-}
-
 .flex-1 {
     flex: 1;
 }
@@ -153,6 +149,17 @@ h2 {
     width: 267px;
     text-align: center;
     margin: 0;
+}
+
+.logo {
+    background-color: #ecf0f1;
+    width: 272px;
+    height: 162px;
+}
+
+.logo:hover {
+    background-color: transparent;
+    border: 1px solid #000;
 }
 
 #second-menu {
