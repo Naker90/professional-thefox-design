@@ -210,7 +210,9 @@ h2 {
 }
 
 #new-features {
-    background-color: firebrick; /*TODO: quitar*/
+    height: 500px;
+    background: url(../images/new-features.png);
+    background-size: cover;
 }
 
 #special-discount {
