@@ -1,3 +1,7 @@
+/*TODO:
+    - Mirar si hay IDs que no se utilizar (sobretodo en los sections)
+*/
+
 @font-face {
     font-family: 'HelveticaCE';
     font-style: normal;
@@ -29,6 +33,7 @@ h2 {
     border: 1px solid #000;
     display: inline-block;
     padding: 0 10px;
+    margin: 0;
 }
 
 .wrapper {
@@ -223,7 +228,6 @@ h2 {
 
 #new-features h2 {
     padding: 0;
-    margin: 0;
     margin-bottom: 10px;
 }
 
@@ -231,6 +235,8 @@ h2 {
     width: 554px;
     margin: 0;
     margin-bottom: 30px;
+    font-weight: 400;
+    line-height: 26px;
     color: #fff;
 }
 
@@ -241,7 +247,14 @@ h2 {
 }
 
 #special-discount {
-    background-color: forestgreen; /*TODO: quitar: ;*/
+    background-color: #06082f;
+}
+
+#special-discount p { /*TODO: este elemento comparte estilos con (#new-features p)*/
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 #looks-book {
