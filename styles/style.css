@@ -94,9 +94,6 @@ h2 {
 
 .flex-columns {
     flex-direction: column;
-}
-
-.flex-items-center {
     align-items: center;
 }
 
