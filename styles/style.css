@@ -205,6 +205,10 @@ h2 {
     background-color: cadetblue; /*TODO: quitar*/
 }
 
+#fox-brands h2 {
+    margin-bottom: 69px;
+}
+
 #new-features {
     background-color: firebrick; /*TODO: quitar*/
 }
