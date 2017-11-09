@@ -149,6 +149,12 @@ h2 {
     margin-top: 25px;
 }
 
+.icon-description {
+    width: 267px;
+    text-align: center;
+    margin: 0;
+}
+
 #second-menu {
     padding: 24px 0;
     background-color: #1a1c27;
