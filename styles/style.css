@@ -1,5 +1,7 @@
 /*TODO:
     - Mirar si hay IDs que no se utilizar (sobretodo en los sections)
+    - Poner los logos en una sola linea
+    - meter las imagenes de looks book dentro de un div e intentar alinera con flex
 */
 
 @font-face {
@@ -151,7 +153,8 @@ h2 {
 .icon-description {
     width: 267px;
     text-align: center;
-    margin: 0;
+    margin: 5px;
+    line-height: 19px;
 }
 
 .logo {
@@ -166,14 +169,26 @@ h2 {
     border: 1px solid #000;
 }
 
-.img-small { /*TODO: esto no esta bien asi - refactorizar*/
-    margin: 0 10px;
-    border: 2px solid #fff;
+.circle {
+    padding: 8px;
+    margin: 0 3px;
+    color: #a1b1bc;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #fff;
 }
 
-.img-big{ /*TODO: esto no esta bien asi - refactorizar*/
-    margin: 0 5px;
-    border: 2px solid #fff;
+.circle:visited {
+    color: #a1b1bc;
+}
+
+.circle-active {
+    color: #fff;
+    background-color: #fd727d;
+}
+
+.circle-active:visited {
+    color: #fff;
 }
 
 #second-menu {
@@ -273,6 +288,14 @@ h2 {
 
 #looks-book h2 {
     margin-bottom: 69px;
+}
+
+#looks-book img {
+    border: 2px solid #fff;
+}
+
+#looks-book-pagination {
+    margin-top: 50px;
 }
 
 #say-thefox {
