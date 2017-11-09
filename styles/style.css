@@ -166,6 +166,16 @@ h2 {
     border: 1px solid #000;
 }
 
+.img-small {
+    flex: 1;
+    border: 2px solid #fff;
+}
+
+.img-big{
+    flex: 2;
+    border: 2px solid #fff;
+}
+
 #second-menu {
     padding: 24px 0;
     background-color: #1a1c27;
@@ -259,6 +269,10 @@ h2 {
 
 #looks-book {
     background-color: #eff3f2;
+}
+
+#looks-book h2 {
+    margin-bottom: 69px;
 }
 
 #say-thefox {
