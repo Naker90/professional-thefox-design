@@ -166,13 +166,13 @@ h2 {
     border: 1px solid #000;
 }
 
-.img-small {
-    flex: 1;
+.img-small { /*TODO: esto no esta bien asi - refactorizar*/
+    margin: 0 10px;
     border: 2px solid #fff;
 }
 
-.img-big{
-    flex: 2;
+.img-big{ /*TODO: esto no esta bien asi - refactorizar*/
+    margin: 0 5px;
     border: 2px solid #fff;
 }
 
