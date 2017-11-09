@@ -105,7 +105,7 @@ h2 {
     align-items: center;
 }
 
-.flex-space-between {
+.flex-space-between { /*TODO: borrar si se usa en un solo lugar*/
     justify-content: space-between;
     align-items: center;
 }
@@ -212,6 +212,32 @@ h2 {
     height: 500px;
     background: url(../images/new-features.png);
     background-size: cover;
+}
+
+#new-features-content {
+    width: 45%;
+    position: absolute;
+    right: 0;
+    align-items: flex-start;
+}
+
+#new-features h2 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#new-features p {
+    width: 554px;
+    margin: 0;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+#new-features a {
+    text-decoration: none;
+    color: #fd727d;
+    font-weight: 900;
 }
 
 #special-discount {
