@@ -38,6 +38,13 @@ h2 {
     margin: 0;
 }
 
+hr {
+    border: none;
+    background-color: #a1b1bc;
+    height: 1px;
+    margin: 15px 0;
+}
+
 .wrapper {
     width: 1170px;
     margin: 0 auto;
@@ -194,6 +201,23 @@ h2 {
     color: #fff;
 }
 
+.footer-text-style {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.footer-col {
+    width: 272px;
+    height: 276px;
+}
+
+.col-sm {
+    height: 127px;
+}
+
 #second-menu {
     padding: 24px 0;
     background-color: #1a1c27;
@@ -306,7 +330,16 @@ h2 {
 }
 
 #pre-footer {
-    background-color: darksalmon; /*TODO: quitar*/
+    background-color: #222533;
+}
+
+#pre-footer h2 {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 900;
+    border: 0;
+    margin: 0;
+    padding: 0;
 }
 
 footer {
