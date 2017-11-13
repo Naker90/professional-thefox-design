@@ -291,6 +291,15 @@ input {
     margin: 0 10px;
 }
 
+nav input {
+    background-color: #222533;
+    border-color: #363947;
+    background-image: url(../images/search-icon.png);
+    background-position: 95%;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+
 #fashion {
     background: url(../images/background.jpg);
     background-size: cover;
