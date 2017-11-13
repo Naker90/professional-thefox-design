@@ -360,7 +360,8 @@ input {
 }
 
 #special-discount {
-    background-color: #06082f;
+    background: url(../images/discount-background.png);
+    background-size: cover;
 }
 
 #special-discount p { /*TODO: este elemento comparte estilos con (#new-features p)*/
