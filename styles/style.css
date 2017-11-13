@@ -45,6 +45,10 @@ hr {
     margin: 15px 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .wrapper {
     width: 1170px;
     margin: 0 auto;
@@ -66,7 +70,6 @@ hr {
 
 .menu-link {
     font-size: 13px;
-    text-decoration: none;
     color: #222533;
     font-weight: bold;
     margin: auto 20px;
@@ -80,7 +83,6 @@ hr {
 .btn {
     color: #000;
     font-weight: 700;
-    text-decoration: none;
     display: inline-block;
     background-color: transparent;
     border: 2px solid #000;
@@ -183,7 +185,6 @@ hr {
     padding: 8px;
     margin: 0 3px;
     color: #a1b1bc;
-    text-decoration: none;
     border-radius: 50%;
     background-color: #fff;
 }
@@ -216,6 +217,43 @@ hr {
 
 .col-sm {
     height: 127px;
+}
+
+.rrss {
+    width: 34px;
+    height: 33px;
+    background-color: #14161e;
+    align-items: center;
+}
+
+.rrss:hover {
+    width: 32px;
+    height: 31px;
+    border: 1px solid white;
+}
+
+.facebook:hover img {
+   content: url(../images/facebook2.png);
+}
+
+.linkedin:hover img {
+    content: url(../images/linkedin2.png);
+}
+
+.v:hover img {
+    content: url(../images/v2.png);
+}
+
+.world:hover img {
+    content: url(../images/world2.png)
+}
+
+.twitter:hover img {
+    content: url(../images/twitter2.png);
+}
+
+.wifi:hover img {
+    content: url(../images/wifi2.png)
 }
 
 #second-menu {
@@ -293,7 +331,6 @@ hr {
 }
 
 #new-features a {
-    text-decoration: none;
     color: #fd727d;
     font-weight: 900;
 }
@@ -340,6 +377,26 @@ hr {
     border: 0;
     margin: 0;
     padding: 0;
+}
+
+#pre-footer a {
+    color: #a1b1bc;
+}
+
+#pre-footer a:visited {
+    color: #a1b1bc;
+}
+
+#pre-footer a:hover {
+    color: #fff;
+}
+
+#pre-footer a span {
+    display: none;
+}
+
+#pre-footer a:hover span {
+    display: inline-block;
 }
 
 footer {
