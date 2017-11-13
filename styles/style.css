@@ -48,6 +48,15 @@ a {
     text-decoration: none;
 }
 
+input {
+    width: 363px;
+    height: 49px;
+    background-color: #151838;
+    border: 1px solid #2a2b4b;
+    color: #fff;
+    padding: 0 10px;
+}
+
 .wrapper {
     width: 1170px;
     margin: 0 auto;
@@ -100,6 +109,13 @@ a {
 
 .btn-dark:visited {
     color: #fff;
+}
+
+.btn-pink {
+    background-color: #fd727d;
+    border-color: #fd727d;
+    color: #fff;
+    padding: 0;
 }
 
 .flex-wrapper {
