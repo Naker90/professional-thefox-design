@@ -282,6 +282,18 @@ select:focus {
     content: url(../images/wifi2.png)
 }
 
+.input-white {
+    width: 773px;
+    height: 52px;
+    background-color: #fff;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.textarea {
+    height: 143px;
+}
+
 #second-menu {
     padding: 24px 0;
     background-color: #1a1c27;
@@ -309,6 +321,13 @@ select:focus {
     border-left: 1px solid #304253; 
     height: 14px;
     margin: 0 10px;
+}
+
+.p-dark-background {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 nav input {
@@ -383,21 +402,12 @@ nav input {
     width: 554px;
     margin: 0;
     margin-bottom: 30px;
-    font-weight: 400;
-    line-height: 26px;
-    color: #fff;
+    text-align: left;
 }
 
 #special-discount {
     background: url(../images/discount-background.png);
     background-size: cover;
-}
-
-#special-discount p { /*TODO: este elemento comparte estilos con (#new-features p)*/
-    color: #fff;
-    text-align: center;
-    font-weight: 400;
-    line-height: 26px;
 }
 
 #looks-book {
@@ -417,7 +427,15 @@ nav input {
 }
 
 #say-thefox {
-    background-color: chocolate; /*TODO: quitar*/
+    background: url(../images/saythefox-background.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#say-thefox input[type="button"] {
+    width: 793px;
+    padding: 0;
+    text-align: center;
 }
 
 #pre-footer {
