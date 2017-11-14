@@ -57,6 +57,17 @@ input {
     padding: 0 10px;
 }
 
+select {
+    font-weight: bold;
+    color: #a1b1bc;
+    background-color: transparent;
+    border: 0;
+}
+
+select:focus {
+    border: 0;
+}
+
 .wrapper {
     width: 1170px;
     margin: 0 auto;
@@ -279,6 +290,15 @@ input {
 #second-menu p {
     margin: 0;
     font-weight: bold;
+}
+
+#second-menu a {
+    font-weight: bold;
+    color: #a1b1bc;
+}
+
+#second-menu img {
+    margin: 0 10px;
 }
 
 .pink-span {
