@@ -308,14 +308,25 @@ select:focus {
     margin-bottom: 3px;
 }
 
-.freatures-box:hover{
-    background-color: #fff;
-    color: #212346;
+.freatures-box-content {
+    widows: 572px;
+    height: 114px;
+    color: #a1b1bc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -3px;
+    text-align: center;
+    line-height: 24px;
 }
 
 .freatures-box img {
     width: 10px;
     height: 10px;
+}
+
+.freatures-box:hover{
+    background-color: #fff;
+    color: #212346;
 }
 
 .freatures-box:hover img{
