@@ -1,6 +1,6 @@
 /*TODO:
     - Mirar si hay IDs que no se utilizar (sobretodo en los sections)
-    - Poner los logos en una sola linea
+    - meter logos e iconos en las carpetas donde deberian de ir
 */
 
 @font-face {
@@ -35,6 +35,11 @@ h2 {
     display: inline-block;
     padding: 0 10px;
     margin: 0;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
 }
 
 hr {
@@ -294,6 +299,29 @@ select:focus {
     height: 143px;
 }
 
+.freatures-box {
+    width: 552px;
+    height: 53px;
+    background-color: #212346;
+    color: white;
+    padding: 0 20px;
+    margin-bottom: 3px;
+}
+
+.freatures-box:hover{
+    background-color: #fff;
+    color: #212346;
+}
+
+.freatures-box img {
+    width: 10px;
+    height: 10px;
+}
+
+.freatures-box:hover img{
+    content: url(../images/plus-icon-2.png);   
+}
+
 #second-menu {
     padding: 24px 0;
     background-color: #1a1c27;
@@ -404,6 +432,10 @@ nav input {
     margin-bottom: 30px;
     text-align: left;
 }
+
+#new-features a {
+    margin-top: 30px;
+} 
 
 #special-discount {
     background: url(../images/discount-background.png);
