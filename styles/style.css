@@ -419,7 +419,7 @@ nav input {
 #new-features {
     height: 500px;
     background: url(../images/new-features.png);
-    background-size: cover;
+    background-position: center center;
 }
 
 #new-features-content {
@@ -427,12 +427,10 @@ nav input {
 }
 
 #new-features span {
-    margin-right: 470px;
     font-weight: 900;
 }
 
 #new-features h2 {
-    margin-right: 210px;
     padding: 0;
     margin-bottom: 10px;
 }
@@ -440,13 +438,8 @@ nav input {
 #new-features p {
     width: 554px;
     margin: 0;
-    margin-right: 38px;
     margin-bottom: 30px;
     text-align: left;
-}
-
-#new-features a {
-    margin-top: 30px;
 } 
 
 #special-discount {
